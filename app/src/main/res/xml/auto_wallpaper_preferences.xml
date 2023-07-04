@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="auto_wallpaper_switch"
+        android:summary="Enable to automatically change the wallpaper"
+        android:title="Enable Auto-Wallpaper" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="wifi_switch"
+        android:summary="Device must be connected to a wifi network"
+        android:title="Update on wifi only" />
+    <ListPreference
+        android:entries="@array/intervals"
+        android:entryValues="@array/intervals_values"
+        android:key="wallpaper_change_interval"
+        android:summary="Option to change wallpaper at a particular interval"
+        android:title="Intervals" />
+</PreferenceScreen>

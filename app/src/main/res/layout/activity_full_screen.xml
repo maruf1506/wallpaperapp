@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.digiclack.wallpapers.FullScreenDetailActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@color/transparent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:paddingBottom="30dp">
+        <TextView
+            android:id="@+id/photo_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo by ______"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/on_splash_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" on Unsplash"
+            android:clickable="true"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#E2E2E2</color>
+    <color name="colorAccent">#292929</color>
+
+
+    <color name="colorTextPrimary">#292929</color>
+    <color name="colorTextDisable">#9E9E9E</color>
+    <color name="colorBG">#E2E2E2</color>
+
+    <!-- for api level <= 21 -->
+    <color name="black">#000000</color>
+    <color name="transparent">#272727</color>
+    <color name="transparent_dark">#292929</color>
+</resources>

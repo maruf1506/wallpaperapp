@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Wallpapers</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+
+
+
+
+    <!-- Ad Mob IDs -->
+    <string name="app_id_admob">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_admob_id">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <!-- Strings Client id unsplash.com -->
+    <string name="unsplash_access_key">f0ae20ec8820c9013f3877e47ed0d0c1010478f0dcb327064292e32e51f3b142</string>
+
+</resources>
